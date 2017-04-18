@@ -20,7 +20,10 @@
 
 #include <string>
 using std::string;
+
+#ifdef _WIN32
 #include <direct.h>
+#endif
 
 #include "NDPluginFile.h"
 //#include "tiffio.h"

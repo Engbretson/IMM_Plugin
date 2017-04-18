@@ -11,7 +11,7 @@
 
 #ifdef _WIN32
 #include <windows.h>
-
+#include <direct.h>
 #endif
 
 
@@ -31,7 +31,7 @@
 
 #include <string>
 using std::string;
-#include <direct.h>
+
 
 
 

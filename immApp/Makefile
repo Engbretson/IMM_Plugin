@@ -97,13 +97,13 @@ LIB_SRCS +=simPlugin.cpp
 
 ##!!ENDTJM
 
-USR_INCLUDES += -I $(AREA_DETECTOR)/ADCore-R2-4/ADApp/ADSrc
-USR_INCLUDES += -I $(AREA_DETECTOR)/ADCore-R2-4/ADApp/
+USR_INCLUDES += -I $(ADCORE)/ADApp/ADSrc
+USR_INCLUDES += -I $(ADCORE)/ADApp/
 
-USR_INCLUDES += -I $(AREA_DETECTOR)/ADBinaries-R2-2/lib/
+USR_INCLUDES += -I $(ADSUPPORT)/lib/
 
 
-include $(AREA_DETECTOR)/ADCore-R2-4/ADApp/commonDriverMakefile
+include $(ADCORE)/ADApp/commonDriverMakefile
 
 include $(TOP)/configure/RULES
 #----------------------------------------
